@@ -31,7 +31,7 @@ describe "Nested Data Structures" do
     end
 
     it 'can read second level of nesting' do
-      bottom_right_corner = __
+      bottom_middle = __
       top_left_corner = __
 
       expect(bottom_middle).to eq("C2")
@@ -75,10 +75,10 @@ describe "Nested Data Structures" do
       # Replace the __ with the correct accessors
       hopper = __ # What key in profile would you use to get Hopper's info?
 
-      expect(hopper).to eq({:grace_hopper => {
+      expect(hopper).to eq({
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
-      }})
+      })
     end
 
     it 'can access second level data' do
