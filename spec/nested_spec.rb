@@ -44,7 +44,10 @@ describe "Nested Data Structures" do
       # To place an X in the middle you would:
       tic_tac_toe_board[1][1] = "X" 
 
-      # Make your moves here
+      # Make your moves here (replace the __ with the correct accessor)
+      __ = "X"
+      __ = "X"
+      __ = "X"
 
       # Replace the __ with the correct accessors.
       top_right = __
