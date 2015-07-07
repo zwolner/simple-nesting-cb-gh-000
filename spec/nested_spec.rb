@@ -2,22 +2,6 @@ require_relative "spec_helper"
 require_relative "../nested.rb"
 
 context "nested hash" do 
-  let(:programmer_hash){
-      {
-        :grace_hopper => {
-          :known_for => "COBOL",
-          :languages => ["COBOL", "FORTRAN"]
-        },
-        :alan_kay => {
-          :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
-        },
-        :dennis_ritchie => {
-          :known_for => "Unix",
-          :languages => ["C"]
-        }
-      }
-    }
   describe "#hopper" do 
     it "operates on the programmer_hash and returns the value of the :grace_hopper key" do
       expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
@@ -58,18 +42,3 @@ end
 
 
 
-
-#     it 'can write data to the second level' do
-#       # Change what alan kay is known for to "GUI"
-
-#       expect(profiles[:alan_kay][:known_for]).to eq("GUI")
-#     end
-
-#     it 'can add data to the third level' do
-#       # Add Assembly to Dennis Ritchie's Languages
-
-#       expect(profiles[:dennis_ritchie][:languages]).to include("Assembly")
-#     end
-#   end
-
-# end
