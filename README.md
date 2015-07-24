@@ -3,7 +3,7 @@
 ## Objectives
 
 1. Access data from a nested hash.
-2. Adding data to and change data within a nested hash.
+2. Add data to and change data within a nested hash.
 
 ## Instructions
 
