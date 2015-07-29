@@ -34,4 +34,4 @@ my_hash = {first: "i'm first!", second: "i'm second!", third: "i'm third!"}
 ```
 
 
-**Top-tip:** *When defining methods, return values matter! Use Pry to drop into your methods and understand what is going on, what the is return is, and why tests might not be passing.* 
+**Top-tip:** *When defining methods, return values matter! Use Pry to drop into your methods and understand what is going on, what the return is, and why tests might not be passing.* 
