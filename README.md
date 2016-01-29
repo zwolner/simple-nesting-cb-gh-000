@@ -36,4 +36,4 @@ my_hash = {first: "i'm first!", second: "i'm second!", third: "i'm third!"}
 
 **Top-tip:** *When defining methods, return values matter! Use Pry to drop into your methods and understand what is going on, what the return is, and why tests might not be passing.* 
 
-<a href='https://learn.co/lessons/simple-nesting' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/simple-nesting' title='Simple Nesting Lab'>Simple Nesting Lab</a> on Learn.co and start learning to code for free.</p>
