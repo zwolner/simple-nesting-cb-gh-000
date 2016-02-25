@@ -17,7 +17,7 @@ describe "nested hash" do
 
   describe "#dennis_ritchies_language" do 
     it "operates on the programmer_hash and returns the value of Dennis Ritchie's language as a string" do 
-      expect(dennis_ritchies_language).to eq("C")
+      expect(adding_to_dennis[:dennis_ritchie][:languages][1]).to include("Assembly")
     end
   end
 
